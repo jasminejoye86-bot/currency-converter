@@ -11,7 +11,27 @@
     <div class="container">
         <h2>currency converter</h2>
         <form>
-
+            <label for="AmountEnter">Enter Amount</label><br>
+            <input type="text" id="amount" value="1">
+            <div id="dropDawn">
+                <div class="from">
+                    <p>From</p>
+                    <img src="https://flagsapi.com/US/flat/64.png" alt="country flag">
+                    <select name="" id="select-container">
+                        <option value="">USD</option>
+                    </select>
+                </div>
+                <div class="to">
+                    <p>To</p>
+                    <img src="https://flagsapi.com/IN/flat/64.png" alt="country flag">
+                    <select name="" id="select-container">
+                        <option value="">In</option>
+                    </select>
+                </div>
+                <div id="msg">
+                    <p>1 USD = 96.5555 INR</p>
+                </div>
+                <button>Currency Convertor</button>
         </form>
     </div>
     <script src="countryCode.js"></script>
