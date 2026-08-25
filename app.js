@@ -29,9 +29,12 @@ function updateFlag(element) {
 }
 FormBtn.addEventListener("click", async (evnt) => {
     evnt.preventDefault();
+    let amount = document.querySelector(".amount input");
+    let amountValue = amount.value
+    console.log(amountValue)
     let URL = `https://v6.exchangerate-api.com/v6/7d4178dda7f9706ac46e6c35/pair/${From.value.toLowerCase()}/${to.value.toLowerCase()}`
     let response = await fetch(URL);
     let data = await response.json();
     let rate = data.conversion_rate;
-    console.log(rate)
+
 });
