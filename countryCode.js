@@ -1,4 +1,5 @@
 let countryCodeList = {
+    USD: "TL",
     AMD: "AM",
     BDT: "BD",
     BTN: "BT",
@@ -24,5 +25,4 @@ let countryCodeList = {
     LKR: "LK",
     TWD: "TW",
     THB: "TH",
-    USD: "TL",
 }
